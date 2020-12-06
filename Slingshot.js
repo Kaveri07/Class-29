@@ -31,7 +31,7 @@ class SlingShot{
             var pointB = this.pointB;
             strokeWeight(15);
             stroke(48, 23, 8);
-            //image(this.sling3, pointA)
+            image(this.sling3,pointA.x -30, pointA.y -10,15,30);
             line(pointA.x-20, pointA.y, pointB.x-10, pointB.y);
             line(pointA.x-20, pointA.y, pointB.x+30, pointB.y);
         }
